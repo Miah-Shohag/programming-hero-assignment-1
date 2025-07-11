@@ -155,3 +155,96 @@ body {
   color: #969595;
   font-weight: 500;
 }
+
+/* User feedback */
+
+.user-feedback {
+  padding: 50px 0;
+}
+
+.user-feedback h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+
+.review-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  padding: 24px;
+  border-radius: 14px;
+  background-color: #fafcff;
+  width: 100%;
+}
+
+.card h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card .title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.card .subtitle {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.star {
+  margin-bottom: 24px;
+}
+.star i {
+  color: #ffb805;
+}
+
+.reviewer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-size: 18px;
+}
+
+.reviewer .date {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* Focus section */
+.focus {
+  padding: 50px 0;
+}
+
+.focus-content {
+  background-color: #fff;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 71px 150px;
+}
+.focus-content img {
+  border-radius: 48px;
+}
+
+.focus-content h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
