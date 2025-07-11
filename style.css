@@ -283,3 +283,43 @@ textarea {
   border-radius: 10px;
   border: 1px solid #d6dded;
 }
+
+/* Footer */
+
+footer {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  margin: auto;
+}
+
+.logo {
+  font-size: 100px;
+  font-weight: 800;
+  color: var(--primary-color);
+  font-family: "Inter", sans-serif;
+}
+.footer-content {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-content ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.footer-content ul li {
+  list-style: none;
+}
+
+.footer-content ul li a {
+  text-decoration: none;
+  color: #8987a1;
+}
