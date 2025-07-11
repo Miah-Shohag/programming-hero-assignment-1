@@ -42,4 +42,40 @@ body {
 
 .btn:hover {
   background-color: #ffb805;
+  color: #000;
+  transform: scale(1.1);
+}
+
+/* Banner and Navbar */
+
+.banner-section {
+  background-image: url("Assets/Hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.nav-left a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 34px;
+}
+
+.banner-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 130px 0 120px 0;
+  text-align: center;
+}
+
+.banner-content h2 {
+  font-size: 65px;
+  margin-bottom: 37px;
 }
