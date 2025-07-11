@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #4e47ff;
+  --white: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f5f8ff;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.btn {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 12px 36px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ffb805;
+}
